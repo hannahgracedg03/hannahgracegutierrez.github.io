@@ -1,175 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hannah Grace Gutierrez | Web Developer</title>
-
-<style>
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #0f172a;
-  color: #e2e8f0;
-  line-height: 1.6;
-}
-
-header {
-  text-align: center;
-  padding: 80px 20px;
-  background: linear-gradient(135deg, #020617, #0f172a);
-}
-
-header h1 {
-  font-size: 3rem;
-  color: #38bdf8;
-}
-
-header p {
-  color: #94a3b8;
-  margin-top: 10px;
-}
-
-.btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  background: #38bdf8;
-  color: black;
-  border-radius: 5px;
-}
-
-section {
-  max-width: 1000px;
-  margin: auto;
-  padding: 60px 20px;
-}
-
-h2 {
-  color: #38bdf8;
-  margin-bottom: 20px;
-}
-
-.grid {
-  display: grid;
-  gap: 20px;
-}
-
-.projects {
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-}
-
-.card {
-  background: #1e293b;
-  padding: 20px;
-  border-radius: 10px;
-  transition: 0.3s;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-}
-
-.skills span {
-  display: inline-block;
-  background: #1e293b;
-  padding: 8px 12px;
-  margin: 5px;
-  border-radius: 5px;
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  color: #64748b;
-}
-</style>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
-  <h1>Hannah Grace Gutierrez</h1>
-  <p>Freelance Web Developer & Designer</p>
-  <a class="btn" href="#contact">Hire Me</a>
-</header>
+  <header>
+    <h1>Your Name</h1>
+    <p>Aspiring Web Developer & Designer</p>
+  </header>
 
-<section>
-  <h2>About Me</h2>
-  <p>
-    I am a freelance web developer and designer specializing in building modern,
-    responsive, and user-friendly websites. I help individuals and businesses
-    create a strong online presence through clean design and efficient code.
-  </p>
-</section>
-
-<section>
-  <h2>Skills</h2>
-  <div class="skills">
-    <span>HTML5</span>
-    <span>CSS3</span>
-    <span>JavaScript</span>
-    <span>Responsive Design</span>
-    <span>UI/UX Design</span>
-    <span>Git & GitHub</span>
-  </div>
-</section>
-
-<section>
-  <h2>Projects</h2>
-  <div class="grid projects">
-
-    <div class="card">
-      <h3>Personal Portfolio Website</h3>
-      <p>A modern and responsive personal portfolio built using HTML, CSS, and JavaScript.</p>
-      <a href="#">View Project</a>
-    </div>
-
-    <div class="card">
-      <h3>Business Landing Page</h3>
-      <p>Designed and developed a landing page for a small business to improve online visibility.</p>
-      <a href="#">View Project</a>
-    </div>
-
-    <div class="card">
-      <h3>E-commerce UI Design</h3>
-      <p>Created a clean and user-friendly e-commerce interface focused on user experience.</p>
-      <a href="#">View Project</a>
-    </div>
-
-  </div>
-</section>
-
-<section>
-  <h2>Experience</h2>
-  <div class="card">
-    <h3>Freelance Web Developer</h3>
-    <p><strong>2025 - Present</strong></p>
+  <section id="about">
+    <h2>About Me</h2>
     <p>
-      Developed responsive websites for clients, focusing on performance,
-      modern design, and usability. Collaborated with clients to deliver
-      customized solutions.
+      I am an aspiring web developer with knowledge in HTML, CSS, and JavaScript.
+      I enjoy creating clean and responsive websites and continuously improving my skills.
     </p>
-  </div>
+  </section>
 
-  <div class="card" style="margin-top:20px;">
-    <h3>Web Design Practice Projects</h3>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Responsive Design</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <ul>
+      <li>Web Development Certification</li>
+      <li>HTML & CSS Certification</li>
+      <li>JavaScript Basics</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>My personal portfolio showcasing my skills and projects.</p>
+    </div>
+
+    <div class="project">
+      <h3>Landing Page</h3>
+      <p>A responsive landing page design using HTML and CSS.</p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
     <p>
-      Built multiple personal and practice projects to improve front-end
-      development and UI/UX design skills.
+      Built personal and practice projects, focusing on responsive design and UI improvements.
+      Familiar with GitHub for version control.
     </p>
-  </div>
-</section>
+  </section>
 
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Email: your@email.com</p>
-  <p>GitHub: https://github.com/yourusername</p>
-</section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your@email.com</p>
+  </section>
 
-<footer>
-  <p>© 2026 Hannah Grace Gutierrez</p>
-</footer>
+  <footer>
+    <p>© 2026 Your Name</p>
+  </footer>
 
 </body>
 </html>
